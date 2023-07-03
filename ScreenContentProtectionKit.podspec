@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Ramy Sabry/ScreenContentProtectionKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ramy Sabry' => 'ramy.sabry@fawry.com' }
-  s.source           = { :git => 'https://github.com/Ramy Sabry/ScreenContentProtectionKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ramyaimansabry/ScreenContentProtectionKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://shorturl.at/hrDF5'
 
   s.ios.deployment_target = '13.0'
