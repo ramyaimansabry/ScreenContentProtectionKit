@@ -11,6 +11,13 @@
 		DCC9CDE42A5360BD0041F4D2 /* ScreenContentProtectionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC9CDD92A5360BD0041F4D2 /* ScreenContentProtectionKit.framework */; };
 		DCC9CDE92A5360BD0041F4D2 /* ScreenContentProtectionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9CDE82A5360BD0041F4D2 /* ScreenContentProtectionKitTests.swift */; };
 		DCC9CDEA2A5360BD0041F4D2 /* ScreenContentProtectionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC9CDDC2A5360BD0041F4D2 /* ScreenContentProtectionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC9CDFA2A5361090041F4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9CDF92A5361090041F4D2 /* AppDelegate.swift */; };
+		DCC9CDFC2A5361090041F4D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9CDFB2A5361090041F4D2 /* SceneDelegate.swift */; };
+		DCC9CDFE2A5361090041F4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9CDFD2A5361090041F4D2 /* ViewController.swift */; };
+		DCC9CE012A5361090041F4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC9CDFF2A5361090041F4D2 /* Main.storyboard */; };
+		DCC9CE032A5361090041F4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC9CE022A5361090041F4D2 /* Assets.xcassets */; };
+		DCC9CE062A5361090041F4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC9CE042A5361090041F4D2 /* LaunchScreen.storyboard */; };
+		DCC9CE0D2A5361D10041F4D2 /* ScreenContentProtectionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC9CE0C2A5361D10041F4D2 /* ScreenContentProtectionKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		DCC9CDDD2A5360BD0041F4D2 /* ScreenContentProtectionKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ScreenContentProtectionKit.docc; sourceTree = "<group>"; };
 		DCC9CDE32A5360BD0041F4D2 /* ScreenContentProtectionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenContentProtectionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC9CDE82A5360BD0041F4D2 /* ScreenContentProtectionKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenContentProtectionKitTests.swift; sourceTree = "<group>"; };
+		DCC9CDF72A5361090041F4D2 /* ScreenContentProtectionKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenContentProtectionKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC9CDF92A5361090041F4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC9CDFB2A5361090041F4D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCC9CDFD2A5361090041F4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCC9CE002A5361090041F4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC9CE022A5361090041F4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC9CE052A5361090041F4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC9CE072A5361090041F4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC9CE0C2A5361D10041F4D2 /* ScreenContentProtectionKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenContentProtectionKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC9CDF42A5361090041F4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				DCC9CDDB2A5360BD0041F4D2 /* ScreenContentProtectionKit */,
 				DCC9CDE72A5360BD0041F4D2 /* ScreenContentProtectionKitTests */,
+				DCC9CDF82A5361090041F4D2 /* ScreenContentProtectionKitExample */,
 				DCC9CDDA2A5360BD0041F4D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				DCC9CDD92A5360BD0041F4D2 /* ScreenContentProtectionKit.framework */,
 				DCC9CDE32A5360BD0041F4D2 /* ScreenContentProtectionKitTests.xctest */,
+				DCC9CDF72A5361090041F4D2 /* ScreenContentProtectionKitExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +96,7 @@
 		DCC9CDDB2A5360BD0041F4D2 /* ScreenContentProtectionKit */ = {
 			isa = PBXGroup;
 			children = (
+				DCC9CE0B2A5361AD0041F4D2 /* Source */,
 				DCC9CDDC2A5360BD0041F4D2 /* ScreenContentProtectionKit.h */,
 				DCC9CDDD2A5360BD0041F4D2 /* ScreenContentProtectionKit.docc */,
 			);
@@ -83,6 +109,28 @@
 				DCC9CDE82A5360BD0041F4D2 /* ScreenContentProtectionKitTests.swift */,
 			);
 			path = ScreenContentProtectionKitTests;
+			sourceTree = "<group>";
+		};
+		DCC9CDF82A5361090041F4D2 /* ScreenContentProtectionKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				DCC9CDF92A5361090041F4D2 /* AppDelegate.swift */,
+				DCC9CDFB2A5361090041F4D2 /* SceneDelegate.swift */,
+				DCC9CDFD2A5361090041F4D2 /* ViewController.swift */,
+				DCC9CDFF2A5361090041F4D2 /* Main.storyboard */,
+				DCC9CE022A5361090041F4D2 /* Assets.xcassets */,
+				DCC9CE042A5361090041F4D2 /* LaunchScreen.storyboard */,
+				DCC9CE072A5361090041F4D2 /* Info.plist */,
+			);
+			path = ScreenContentProtectionKitExample;
+			sourceTree = "<group>";
+		};
+		DCC9CE0B2A5361AD0041F4D2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DCC9CE0C2A5361D10041F4D2 /* ScreenContentProtectionKit.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +183,23 @@
 			productReference = DCC9CDE32A5360BD0041F4D2 /* ScreenContentProtectionKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DCC9CDF62A5361090041F4D2 /* ScreenContentProtectionKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC9CE082A5361090041F4D2 /* Build configuration list for PBXNativeTarget "ScreenContentProtectionKitExample" */;
+			buildPhases = (
+				DCC9CDF32A5361090041F4D2 /* Sources */,
+				DCC9CDF42A5361090041F4D2 /* Frameworks */,
+				DCC9CDF52A5361090041F4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenContentProtectionKitExample;
+			productName = ScreenContentProtectionKitExample;
+			productReference = DCC9CDF72A5361090041F4D2 /* ScreenContentProtectionKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +214,9 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					DCC9CDE22A5360BD0041F4D2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DCC9CDF62A5361090041F4D2 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -168,6 +236,7 @@
 			targets = (
 				DCC9CDD82A5360BD0041F4D2 /* ScreenContentProtectionKit */,
 				DCC9CDE22A5360BD0041F4D2 /* ScreenContentProtectionKitTests */,
+				DCC9CDF62A5361090041F4D2 /* ScreenContentProtectionKitExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +256,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC9CDF52A5361090041F4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC9CE062A5361090041F4D2 /* LaunchScreen.storyboard in Resources */,
+				DCC9CE032A5361090041F4D2 /* Assets.xcassets in Resources */,
+				DCC9CE012A5361090041F4D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC9CE0D2A5361D10041F4D2 /* ScreenContentProtectionKit.swift in Sources */,
 				DCC9CDDE2A5360BD0041F4D2 /* ScreenContentProtectionKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +286,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC9CDF32A5361090041F4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC9CDFE2A5361090041F4D2 /* ViewController.swift in Sources */,
+				DCC9CDFA2A5361090041F4D2 /* AppDelegate.swift in Sources */,
+				DCC9CDFC2A5361090041F4D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +305,25 @@
 			targetProxy = DCC9CDE52A5360BD0041F4D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC9CDFF2A5361090041F4D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC9CE002A5361090041F4D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC9CE042A5361090041F4D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC9CE052A5361090041F4D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCC9CDEB2A5360BD0041F4D2 /* Debug */ = {
@@ -355,6 +464,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +495,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +516,7 @@
 		DCC9CDF12A5360BD0041F4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -420,6 +532,7 @@
 		DCC9CDF22A5360BD0041F4D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -427,6 +540,62 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramysabry1996.ScreenContentProtectionKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC9CE092A5361090041F4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenContentProtectionKitExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramysabry1996.ScreenContentProtectionKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC9CE0A2A5361090041F4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenContentProtectionKitExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramysabry1996.ScreenContentProtectionKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +627,15 @@
 			buildConfigurations = (
 				DCC9CDF12A5360BD0041F4D2 /* Debug */,
 				DCC9CDF22A5360BD0041F4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC9CE082A5361090041F4D2 /* Build configuration list for PBXNativeTarget "ScreenContentProtectionKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC9CE092A5361090041F4D2 /* Debug */,
+				DCC9CE0A2A5361090041F4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
