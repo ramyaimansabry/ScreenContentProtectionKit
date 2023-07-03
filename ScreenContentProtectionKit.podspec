@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'ScreenContentProtectionKit/Sources/**/*.{h,m,swift}'
+  s.source_files = 'ScreenContentProtectionKit/Source/**/*'
   
   s.swift_version = '5.0'
 
