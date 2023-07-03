@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ramy Sabry/ScreenContentProtectionKit'
+  s.homepage         = 'https://github.com/ramyaimansabry/ScreenContentProtectionKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ramy Sabry' => 'ramy.sabry@fawry.com' }
+  s.author           = { 'Ramy Sabry' => 'ramysabry1996@gmail.com' }
   s.source           = { :git => 'https://github.com/ramyaimansabry/ScreenContentProtectionKit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://shorturl.at/hrDF5'
 
